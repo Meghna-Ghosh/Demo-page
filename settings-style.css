@@ -1,0 +1,122 @@
+html{
+    background-color: rgb(205, 191, 218);
+}
+.box-container-1{  /*1st box*/
+    height: 250px;
+    width: 300px;
+    background-color: rgb(140, 140, 209);
+    border-radius: 5px;
+    /* color: aquamarine; */
+    border: solid 2px rgb(228, 119, 119);
+    margin: 10px;
+}
+.box-container{  /*every box except 1*/
+    height: 100px;
+    width: 150px;
+    background-color: rgb(23, 23, 136);
+    border-radius: 5px;
+    color: aquamarine;
+    border: solid 2px rgb(228, 119, 119);
+    margin: 5px;
+}
+.a, .b{
+    height: 110px;
+    width: 130px;
+    border: solid 2px brown;
+    margin: 5px;
+    border-radius: 5px;
+}
+.a{
+    background-image: url("/Downloads/image-nat.jpg");
+    /* background-size: cover; */
+    background-size: 130px 110px;
+    background-repeat: no-repeat;
+    /* background-position: right bottom; */
+}
+.b{
+    background-image: url("/Downloads/image-jump.jpeg");
+    /* background-size: cover; */
+    background-size: 130px 110px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 2%;
+    left: 51%;
+}
+
+.box-container{
+    background-color: rgb(52, 201, 146);
+    position: relative;
+    /* position: absolute;*/
+    top: 10%;
+    left: 0%;
+}
+.box-container:nth-child(2){
+    background-color: rgb(196, 125, 192);
+    position: relative;
+    /* position: absolute; */
+    top: 10%;
+    left: 60%;
+}
+.box-container:nth-child(3){
+    background-color: aquamarine;
+    position: relative;
+    /* position: absolute; */
+    top: 10%;
+    left: 30%;
+}
+.box-container:nth-child(4){
+    background-color: rgb(168, 189, 75);
+    position: relative;
+    /*position: absolute;*/
+    top: 10%;
+    /* left: 30%; */
+}
+.box-container:nth-child(5){
+    background-color: rgb(118, 185, 224);
+    position: relative;
+    /* position: absolute; */
+    top: 10%;
+    left: 30%; 
+}
+.box-container:nth-child(6){
+    background-color: rgb(179, 121, 46);
+    position: relative;
+    /* position: absolute; */
+    top: 10%;
+    left: 60%;
+}
+.box-container:nth-child(7){
+    background-color: rgb(45, 150, 199);
+    position: relative;
+    /* position: absolute;  */
+    top: 10%;
+    left: 30%; 
+}
+.box-container:nth-child(8){
+    background-color: rgb(155, 138, 154);
+    position: relative;
+    /* position: absolute; */
+    top: 10%;
+    /* left: 30%;  */
+}
+.box-container:nth-child(9){
+    background-color: rgb(197, 85, 85);
+    position: relative;
+    /* position: absolute; */
+    top: 10%;
+    left: 30%;
+}
+.box-container:nth-child(10){
+    background-color: rgb(69, 161, 56);
+    position: relative;
+    /* position: absolute; */
+    top: 10%;
+    left: 60%;
+}
+.box-container:nth-child(11){
+    background-color: rgb(192, 169, 107);
+    position: relative;
+    /* position: absolute; */
+    top: 10%;
+    left: 30%;
+}

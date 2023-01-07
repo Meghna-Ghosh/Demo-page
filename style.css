@@ -1,0 +1,197 @@
+html{
+    background-color: rgb(152, 174, 235);
+}
+header{ 
+    background-color: rgb(230, 159, 52);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(102, 92, 92); 
+}
+a{
+    background-color: rgb(88, 60, 114);
+    color: rgb(120, 209, 179);
+    /* margin-bottom: 5px; */
+    /*margin-top: 5px;*/
+    border-radius: 7px;
+    padding: 5px;
+    font-size:medium;
+    /*border: solid 1px blue;*/
+}
+.navbar{
+    height: 30px;
+    width: auto;
+    background-color: rgb(235, 162, 162);
+    border-radius: 10px;
+    border: solid 1px rgb(102, 92, 92);
+    /* border: solid 1px; */
+    /* padding-top: 0.1px;*/
+    padding-bottom: 27px;
+}
+ul{ 
+    display: flex;
+    list-style: none;
+    /*align-items: center; */
+    justify-content: space-evenly;
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+ul :active{
+    background-color: rgb(81, 144, 228);
+}
+.button{ /*link*/
+    background-color: rgb(153, 192, 192);
+    color: blue;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 30px;
+    border: 5vh;
+    border-radius: 20px;
+    padding: 10px;
+    float: right;
+    border: solid 2px brown;
+}
+.button:hover{
+    background-color: rgb(170, 216, 216);
+}
+button{ /*press*/
+    background-color: rgb(158, 173, 173);
+    color: blue;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 30px;
+    border: 5vh;
+    border-radius: 20px;
+    padding: 10px;
+    /*float: right;*/
+    border: solid 2px brown;
+    transition: all 0.3s;
+}
+button:active{
+    background-color: rgb(162, 221, 221);
+}
+.image{
+    height: 140px;
+    border-radius: 10px;
+    border: solid 2px rgb(241, 221, 168);
+    /* float: right; */
+}
+aside{
+    float: left;
+    min-height: calc( 117.6vh - 0px );
+    background-color: rgb(209, 141, 116);
+    border-radius: 10px;
+    padding-right: 10px;
+    /* border: solid 2px; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 56, 56);
+    border: solid 1px;
+}
+section{
+    background-color: rgb(235, 204, 168);
+    border-radius: 10px;
+    border: solid 0px rgb(142, 189, 49);
+    padding-left: 130px;
+    border: solid 1px;
+}
+section p{
+    background-color: rgb(199, 156, 156);
+    padding: 5px;
+    border-radius: 10px;
+}
+section pre{
+    background-color: rgb(156, 132, 132);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    padding: 5px;
+    border-radius: 10px;
+}
+footer{
+    color: rgb(5, 5, 66);
+    background-color: rgb(114, 103, 103);
+    text-align: center;
+    padding-left: 200px; 
+}
+
+/*style for contact page*/
+.flex-container{
+    height: 300px;
+    width: 400px;
+    background-color: antiquewhite;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-elements{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(212, 156, 81);
+    color: black;
+    border: solid 1px rgb(172, 63, 63);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-container .flex-elements:nth-child(2){
+    background-color: rgb(224, 154, 154);
+}
+.flex-container .flex-elements:nth-child(3){
+    background-color: rgb(185, 94, 94);
+}
+.flex-container .flex-elements:nth-child(4){
+    background-color: rgb(190, 163, 163);
+}
+.flex-container .flex-elements:nth-child(5){
+    background-color: rgb(179, 116, 116);
+}
+.flex-container .flex-elements:nth-child(6){
+    background-color: rgb(252, 115, 115);
+}
+.flex-container .flex-elements:nth-child(7){
+    background-color: rgb(219, 192, 192);
+}
+/*style for about page*/
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    border: solid 1px;
+    transform: translate(200%, 200%) rotate(45deg) skew(20deg, 10deg) scale(2);
+    /*animation purpose*/
+    animation-name: changeLocation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes changeLocation{
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: blue;
+        left: 145px;
+        top: 0px;
+    }
+    50%{
+        background-color: green;
+        left: 253px;
+        top: 335px;
+    }
+    75%{
+        background-color: yellow;
+        left: 0px;
+        top: 465px;
+    }
+    100%{
+        background-color: rgb(194, 58, 58);
+        left: 0px;
+        top: 0px;
+    }
+}
